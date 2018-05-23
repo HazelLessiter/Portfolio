@@ -1,0 +1,147 @@
+﻿@model RecipeWebsite.Models.Recipe
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Recipe</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        @*<dt>
+                @Html.DisplayNameFor(model => model.RecipeTitle)
+            </dt>*@
+        <dt>
+            @Html.DisplayName("Title:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeTitle)
+        </dd>
+        <dt>
+            @Html.DisplayName("Ingredients:")@*Done*@
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant1)
+        </dd>
+        <dt>
+            @Html.DisplayName("-")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant2)
+        </dd>
+        <dt>
+            @Html.DisplayName("-")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant3)
+        </dd>
+        <dt>
+            @Html.DisplayName("-")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant4)
+        </dd>
+        <dt>
+            @Html.DisplayName("-")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant5)
+        </dd>
+        <dt>
+            @Html.DisplayName("-")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant6)
+        </dd>
+        <dt>
+            @Html.DisplayName("-")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant7)
+        </dd>
+        <dt>
+            @Html.DisplayName("-")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant8)
+        </dd>
+        <dt>
+            @Html.DisplayName("-")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant9)
+        </dd>
+        <dt>
+            @Html.DisplayName("-")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant10)
+        </dd>
+        <dt>
+            @Html.DisplayName("Step 1:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep1)
+        </dd>
+        <dt>
+            @Html.DisplayName("2:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep2)
+        </dd>
+        <dt>
+            @Html.DisplayName("3:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep3)
+        </dd>
+        <dt>
+            @Html.DisplayName("4:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep4)
+        </dd>
+        <dt>
+            @Html.DisplayName("5:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep5)
+        </dd>
+        <dt>
+            @Html.DisplayName("6:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep6)
+        </dd>
+        <dt>
+            @Html.DisplayName("7:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep7)
+        </dd>
+        <dt>
+            @Html.DisplayName("8:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep8)
+        </dd>
+        <dt>
+            @Html.DisplayName("9:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep9)
+        </dd>
+        <dt>
+            @Html.DisplayName("10:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep10)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.RecipeID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

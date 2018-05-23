@@ -1,0 +1,121 @@
+﻿@model IEnumerable<RecipeWebsite.Models.Recipe>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<form asp-controller="Recipes" asp-action="Index">
+    <p>
+        Search: <input type="text" name="q">
+        <input type="submit" value="Search" />
+    </p>
+    <p>
+        @Html.Label("Vegan mode:")
+        <input id="vegan" name="chkBxVegan" value="true" type="checkbox" />
+        @Html.Label("Vegetarian mode:")
+        <input id="vegetarian" name="chkBxVegetarian" value="true" type="checkbox" />
+        @Html.Label("Pescatarian mode:")
+        <input id="pescatarian" name="chkBxPescatarian" value="true" type="checkbox" />
+    </p>
+</form>
+<p>
+    @Html.ActionLink("Create New Recipe", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Recipe Title")
+        </th>
+        <th>
+            @Html.DisplayName("Ingredients:")
+        </th>
+        <th>
+            @Html.DisplayName("Step 1:")
+        </th>
+        <th>
+            @Html.DisplayName("Step 2:")
+        </th>
+        <th>
+            @Html.DisplayName("Step 3:")
+        </th>
+        <th>
+            @Html.DisplayName("Step 4:")
+        </th>
+        <th>
+            @Html.DisplayName("Step 5:")
+        </th>
+        <th>
+            @Html.DisplayName("Step 6:")
+        </th>
+        <th>
+            @Html.DisplayName("Step 7:")
+        </th>
+        <th>
+            @Html.DisplayName("Step 8:")
+        </th>
+        <th>
+            @Html.DisplayName("Step 9:")
+        </th>
+        <th>
+            @Html.DisplayName("Step 10:")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecipeTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ingrediant1)
+                @Html.DisplayFor(modelItem => item.Ingrediant2)
+                @Html.DisplayFor(modelItem => item.Ingrediant3)
+                @Html.DisplayFor(modelItem => item.Ingrediant4)
+                @Html.DisplayFor(modelItem => item.Ingrediant5)
+                @Html.DisplayFor(modelItem => item.Ingrediant6)
+                @Html.DisplayFor(modelItem => item.Ingrediant7)
+                @Html.DisplayFor(modelItem => item.Ingrediant8)
+                @Html.DisplayFor(modelItem => item.Ingrediant9)
+                @Html.DisplayFor(modelItem => item.Ingrediant10)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecipeStep1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecipeStep2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecipeStep3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecipeStep4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecipeStep5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecipeStep6)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecipeStep7)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecipeStep8)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecipeStep9)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecipeStep10)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.RecipeID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.RecipeID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.RecipeID })
+            </td>
+        </tr>
+    }
+</table>

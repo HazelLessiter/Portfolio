@@ -1,0 +1,193 @@
+﻿@model RecipeWebsite.Models.Recipe
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Recipe</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeStep1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeStep2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeStep3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeStep4)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep4)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeStep5)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep5)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeStep6)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep6)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeStep7)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep7)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeStep8)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep8)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeStep9)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep9)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeStep10)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeStep10)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingrediant1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingrediant2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingrediant3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingrediant4)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant4)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingrediant5)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant5)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingrediant6)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant6)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingrediant7)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant7)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingrediant8)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant8)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingrediant9)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant9)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingrediant10)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingrediant10)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
