@@ -26,15 +26,15 @@ namespace RecipeWebsite.Models
         public string RecipeStep8 { get; set; }
         public string RecipeStep9 { get; set; }
         public string RecipeStep10 { get; set; }
-        public string Ingrediant1 { get; set; }
-        public string Ingrediant2 { get; set; }
-        public string Ingrediant3 { get; set; }
-        public string Ingrediant4 { get; set; }
-        public string Ingrediant5 { get; set; }
-        public string Ingrediant6 { get; set; }
-        public string Ingrediant7 { get; set; }
-        public string Ingrediant8 { get; set; }
-        public string Ingrediant9 { get; set; }
-        public string Ingrediant10 { get; set; }
+        public string Ingredient1 { get; set; }
+        public string Ingredient2 { get; set; }
+        public string Ingredient3 { get; set; }
+        public string Ingredient4 { get; set; }
+        public string Ingredient5 { get; set; }
+        public string Ingredient6 { get; set; }
+        public string Ingredient7 { get; set; }
+        public string Ingredient8 { get; set; }
+        public string Ingredient9 { get; set; }
+        public string Ingredient10 { get; set; }
     }
 }

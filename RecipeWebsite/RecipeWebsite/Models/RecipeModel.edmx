@@ -21,16 +21,16 @@
           <Property Name="RecipeStep8" Type="nvarchar" MaxLength="200" />
           <Property Name="RecipeStep9" Type="nvarchar" MaxLength="200" />
           <Property Name="RecipeStep10" Type="nvarchar" MaxLength="200" />
-          <Property Name="Ingrediant1" Type="nvarchar" MaxLength="50" Nullable="false" />
-          <Property Name="Ingrediant2" Type="nvarchar" MaxLength="50" />
-          <Property Name="Ingrediant3" Type="nvarchar" MaxLength="50" />
-          <Property Name="Ingrediant4" Type="nvarchar" MaxLength="50" />
-          <Property Name="Ingrediant5" Type="nvarchar" MaxLength="50" />
-          <Property Name="Ingrediant6" Type="nvarchar" MaxLength="50" />
-          <Property Name="Ingrediant7" Type="nvarchar" MaxLength="50" />
-          <Property Name="Ingrediant8" Type="nvarchar" MaxLength="50" />
-          <Property Name="Ingrediant9" Type="nvarchar" MaxLength="50" />
-          <Property Name="Ingrediant10" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ingredient1" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Ingredient2" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ingredient3" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ingredient4" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ingredient5" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ingredient6" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ingredient7" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ingredient8" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ingredient9" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ingredient10" Type="nvarchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="Users">
           <Key>
@@ -67,16 +67,16 @@
           <Property Name="RecipeStep8" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="RecipeStep9" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="RecipeStep10" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-          <Property Name="Ingrediant1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Ingrediant2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Ingrediant3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Ingrediant4" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Ingrediant5" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Ingrediant6" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Ingrediant7" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Ingrediant8" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Ingrediant9" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Ingrediant10" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ingredient1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Ingredient2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ingredient3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ingredient4" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ingredient5" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ingredient6" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ingredient7" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ingredient8" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ingredient9" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ingredient10" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="User">
           <Key>
@@ -113,16 +113,16 @@
                 <ScalarProperty Name="RecipeStep8" ColumnName="RecipeStep8" />
                 <ScalarProperty Name="RecipeStep9" ColumnName="RecipeStep9" />
                 <ScalarProperty Name="RecipeStep10" ColumnName="RecipeStep10" />
-                <ScalarProperty Name="Ingrediant1" ColumnName="Ingrediant1" />
-                <ScalarProperty Name="Ingrediant2" ColumnName="Ingrediant2" />
-                <ScalarProperty Name="Ingrediant3" ColumnName="Ingrediant3" />
-                <ScalarProperty Name="Ingrediant4" ColumnName="Ingrediant4" />
-                <ScalarProperty Name="Ingrediant5" ColumnName="Ingrediant5" />
-                <ScalarProperty Name="Ingrediant6" ColumnName="Ingrediant6" />
-                <ScalarProperty Name="Ingrediant7" ColumnName="Ingrediant7" />
-                <ScalarProperty Name="Ingrediant8" ColumnName="Ingrediant8" />
-                <ScalarProperty Name="Ingrediant9" ColumnName="Ingrediant9" />
-                <ScalarProperty Name="Ingrediant10" ColumnName="Ingrediant10" />
+                <ScalarProperty Name="Ingredient1" ColumnName="Ingredient1" />
+                <ScalarProperty Name="Ingredient2" ColumnName="Ingredient2" />
+                <ScalarProperty Name="Ingredient3" ColumnName="Ingredient3" />
+                <ScalarProperty Name="Ingredient4" ColumnName="Ingredient4" />
+                <ScalarProperty Name="Ingredient5" ColumnName="Ingredient5" />
+                <ScalarProperty Name="Ingredient6" ColumnName="Ingredient6" />
+                <ScalarProperty Name="Ingredient7" ColumnName="Ingredient7" />
+                <ScalarProperty Name="Ingredient8" ColumnName="Ingredient8" />
+                <ScalarProperty Name="Ingredient9" ColumnName="Ingredient9" />
+                <ScalarProperty Name="Ingredient10" ColumnName="Ingredient10" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
